@@ -5,13 +5,13 @@ let
   description = "Personal Linux-specific scripts/utilities";
 in stdenv.mkDerivation rec {
   name = "linux-scripts-${version}";
-  version = "aa2efecc7476c99fde9838ff5044f0a788acca14";
+  version = "e205a86ada9b6c3c83f97baf6f5dcd14bd08fe74";
 
   src = fetchFromGitHub {
     owner = "emmanuelrosa";
     repo = "linux-scripts";
     rev = version;
-    sha256 = "1fk0626mbrrzrnjmj1bcnf88wv2ifnwqq3419cvbm1hqpqr30qy0";
+    sha256 = "1d081vivcic86yvbq2c0j5cqkmi9sp9kkckyf51h2aslfxnh6l71";
   };
 
   buildInputs = [ 
