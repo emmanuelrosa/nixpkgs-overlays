@@ -29,7 +29,7 @@ in stdenv.mkDerivation rec {
   meta = with stdenv.lib; {
     inherit description;
     homepage = https://www.wfonts.com/font/wingdings;
-    license = licenses.proprieraty;
+    license = licenses.unfree;
     platforms = platforms.all;
     maintainers = with maintainers; [ emmanuelrosa ];
   };
