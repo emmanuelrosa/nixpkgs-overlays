@@ -1,6 +1,6 @@
 self: super: 
 {
-  xmobar = super.xmobar.overrideAttrs (oldAttrs: rec {
+  xmobar-git = super.xmobar.overrideAttrs (oldAttrs: rec {
     name = "xmobar-git";
 
     src = self.fetchFromGitHub {
